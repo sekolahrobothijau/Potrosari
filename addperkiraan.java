@@ -383,6 +383,7 @@ public class addperkiraan extends javax.swing.JDialog {
             jTextFieldnamaperkiraan.setEditable(true);
             jTextFieldperkiraan.requestFocus();
         } else {
+            /*how to use branch on github*/
             jTextFieldnamaperkiraan.setText(formok.ATable.getValueAt(formok.ATable.getSelectedRow(), 2).toString().trim());
             jTextFieldnamaperkiraan.requestFocus();
         }
