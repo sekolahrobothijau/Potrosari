@@ -375,6 +375,7 @@ public class addperkiraan extends javax.swing.JDialog {
      }
     
     private void bersih() {
+        /*menambah percobaan github for programming*/
         if (status) {
             jTextFieldperkiraan.setText("");            
             jTextFieldnamaperkiraan.setText("");                             
